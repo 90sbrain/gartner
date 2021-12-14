@@ -1,4 +1,5 @@
 The code has the following structure:
+
 Gartner: base directory
  - clicks.json: Json file- input file to process
  - result.json: Json file- output file
@@ -9,11 +10,18 @@ Gartner: base directory
  node_modules
   - {various folders of node modules}
 
+The uses one package JEST for testing the code, to install it
+run the following command:
+
+"npm install jest"
+
+
 To run this code enter following command on a cmd or terminal:
 
 "npm start"
 
 Upon running the code, It will put all the results in the result.json file.
+
 
 To test the code run:
 
