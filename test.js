@@ -20,7 +20,6 @@ describe(
         });
         it("main._func call processJson.main with array of objects", ()=>{
             processJson.main = jest.fn()
-
             main._func(mockData)
             expect(processJson.main).toBeCalledWith(mockData)
         })
