@@ -1,24 +1,26 @@
 The code has the following structure:
 
 -Gartner: base directory
- -- clicks.json: Json file- input file to process
- -- result.json: Json file- output file
- -- main.js: Js file 
- -- index.js: Js file, it is the entry file for the code 
- -- processJson.js: Js file 
- -- package-lock.json
- -- package.json
+ - clicks.json: Json file- input file to process
+ - result.json: Json file- output file
+ - main.js: Js file 
+ - index.js: Js file, it is the entry file for the code 
+ - processJson.js: Js file 
+ - package-lock.json
+ - package.json
  -node_modules
   - {various folders of node modules}
 
 PACKAGE INSTALLATION:
+
 The CODE uses one package JEST for testing the code, to install it
 run the following command:
 
 "npm install jest"
 
 
-EXECUTING THE CODE
+EXECUTING THE CODE:
+
 To run this code enter following command on a cmd or terminal:
 
 "npm start"
